@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capctha</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 align="center">Custom Captcha Check using Html, Css, JS</h1>
+    <div class="container">
+        <div class="inner-container">
+            <input type="text" name="captcha" id="captcha" disabled>
+            <button onclick="generate()"><i class="fas fa-sync"></i></button>
+        </div>
+        <div class="inner-container">
+            <input type="text" name="answer" id="answer" autocomplete="off" autofocus="on" maxlength="7">
+            <button onclick="check()">Check</button>
+        </div>
+        <p></p>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
